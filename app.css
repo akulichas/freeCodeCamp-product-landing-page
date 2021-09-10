@@ -1,0 +1,38 @@
+:root {
+    --background-color: #eee;
+}
+
+html {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.header__logo {
+    width: 300px;
+    height: 35px;
+    margin-left: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 80px;
+}
+
+.body {
+    background-color: var(--background-color);
+}
